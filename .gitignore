@@ -1,2 +1,11 @@
 .noshit
 core
+
+*.sdf
+*.opensdf
+*.suo
+*.filters
+Debug
+Release
+x64
+
