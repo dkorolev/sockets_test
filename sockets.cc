@@ -12,6 +12,21 @@ Result: 'This test has passed.', 21 bytes.
 Press Enter to continue.
 */
 
+/*
+LINUX:
+g++ -std=c++11 -Wall -W -g -o .noshit/sockets sockets.cc -pthread
+.noshit/sockets
+server_socket = 3
+client_socket = 4
+send(accepted_socket, msg)
+close(accepted_socket)
+close(server_socket)
+recv(client_socket)
+recv(client_socket)
+close(client_socket)
+Result: 'This test has passed.', 21 bytes.
+*/
+
 #include <iostream>
 #include <thread>
 #include <chrono>
